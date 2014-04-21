@@ -6,7 +6,9 @@
     <title><emphasis>Everything is a file!</emphasis></title>
 
     <para>An often quoted tenet of UNIX-like systems such as Linux or
-    BSD is <emphasis>everything is a file</emphasis>.</para>
+    BSD is <emphasis>everything is a file</emphasis><footnote><para>
+    This is not completely true for UNIX, but is for the Plan9 operating
+    system.</para></footnote>.</para>
 
     <para>Imagine a file in the context something familiar like a word
     processor.  There are two fundamental operations we could use on
@@ -24,19 +26,19 @@
       <listitem><para>The screen</para></listitem>
       <listitem><para>The keyboard</para></listitem>
       <listitem><para>A printer</para></listitem>
-      <listitem><para>A CDROM</para></listitem>
+      <listitem><para>A CD-ROM drive</para></listitem>
     </orderedlist>
 
     <para>The screen and printer are both like a write-only file, but
     instead of being stored as bits on a disk the information is
     displayed as dots on a screen or lines on a page. The keyboard is
     like a read only file, with the data coming from keystrokes
-    provided by the user.  The CDROM is similar, but rather than
+    provided by the user.  The CD-ROM is similar, but rather than
     randomly coming from the user the data is stored directly on the
     disk.</para>
 
     <para>Thus the concept of a file is a good
-    <emphasis>abstraction</emphasis> of either a a sink for, or source
+    <emphasis>abstraction</emphasis> of either a sink for, or source
     of, data.  As such it is an excellent abstraction of all the
     devices one might attach to the computer.  This realisation is the
     great power of UNIX and is evident across the design of the entire
