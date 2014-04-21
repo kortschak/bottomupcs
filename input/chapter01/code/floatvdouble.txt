@@ -31,4 +31,3 @@ Python 2.4.4 (#2, Oct 20 2006, 00:23:25)
 Type "help", "copyright", "credits" or "license" for more information.
 >>> 8.0 + 0.45
 8.4499999999999993
-
